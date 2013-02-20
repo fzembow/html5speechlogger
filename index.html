@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+  <head>
+    <link rel=stylesheet href="style.css" type="text/css">
+  </head>
+  <body>
+
+    <div id="controls">
+      <button id="start">start</button>
+      <button id="stop">stop</button>
+      <label for="max-alternatives">maxAlternatives:</labal>
+      <input id="max-alternatives" value=1>
+    </div>
+
+    <table id='table'>
+      <thead>
+        <tr>
+          <th>ms</th>
+          <th>resultIndex</th>
+          <th>final</th>
+          <th>alternativeIndex</th>
+          <th>confidence</th>
+          <th>transcript</th>
+        </tr>
+      </thead>
+      <tbody id="results"></tbody>      
+    </table>
+
+    <script src="speechdump.js"></script>
+
+  </body>
+</html>
